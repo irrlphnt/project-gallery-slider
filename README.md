@@ -6,8 +6,7 @@ A WordPress plugin that provides a Gutenberg block for displaying an ACF Gallery
 
 - WordPress 6.0+
 - PHP 7.4+
-- Advanced Custom Fields (ACF) Pro
-- Project custom post type with an ACF Gallery field
+- Advanced Custom Fields (ACF) Pro or Secure Custom Fields
 
 ## Installation
 
@@ -19,7 +18,7 @@ A WordPress plugin that provides a Gutenberg block for displaying an ACF Gallery
 
 ## Usage
 
-1. Ensure your Project post type has an ACF Gallery field (default field key: `gallery`)
+1. Ensure your post type has an ACF Gallery field (default field key: `gallery`)
 2. Create or edit a post/page
 3. Add the "Project – Gallery Slider" block from the media category
 4. Configure the block settings:
