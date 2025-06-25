@@ -1,0 +1,7 @@
+/* Editor styles (backend) for Project Gallery Slider */
+@import url('https://unpkg.com/swiper@10/swiper-bundle.min.css');
+
+.pgs-swiper {
+  width: 100%;
+  height: auto;
+}

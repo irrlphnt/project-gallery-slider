@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "pgs/project-gallery-slider",
+  "title": "Project – Gallery Slider",
+  "category": "media",
+  "icon": "images-alt2",
+  "supports": { "html": false },
+  "attributes": {
+    "fieldKey": {
+      "type": "string",
+      "default": "gallery"
+    },
+    "height": {
+      "type": "number",
+      "default": 400
+    },
+    "autoplayDelay": {
+      "type": "number",
+      "default": 0
+    },
+    "showCaption": {
+      "type": "boolean",
+      "default": false
+    },
+    "showNav": {
+      "type": "boolean",
+      "default": true
+    },
+    "captionPos": {
+      "type": "string",
+      "default": "bottom"
+    },
+    "captionBg": {
+      "type": "string",
+      "default": "rgba(0,0,0,0.6)"
+    },
+    "captionText": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "captionSize": {
+      "type": "number",
+      "default": 14
+    },
+    "captionFont": {
+      "type": "string",
+      "default": "inherit"
+    }
+  },
+  "editorScript": "file:./build/editor.js",
+  "editorStyle": "file:./build/editor.css",
+  "script": "file:./build/front.js",
+  "style": "file:./build/front.css",
+  "render": "file:./render.php"
+}
